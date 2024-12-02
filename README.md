@@ -1,3 +1,12 @@
+# Educational Examples for Indicatif
+
+> **Note**: This is an educational fork focusing on additional examples. For the latest version of the library, please visit the [original repository](https://github.com/console-rs/indicatif).
+
+This repository contains supplementary educational examples for Indicatif - a powerful command line progress reporting library for Rust. After discussions in [PR #672](https://github.com/console-rs/indicatif/pull/672), I decided to make this separate collection of examples that showcase Indicatif's examples, both standalone and in combination with other libraries.
+
+The goal is to provide additional learning resources and practical demonstrations beyond the core examples in the main repository.
+
+
 # indicatif
 
 [![Documentation](https://docs.rs/indicatif/badge.svg)](https://docs.rs/indicatif/)
