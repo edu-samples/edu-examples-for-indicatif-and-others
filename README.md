@@ -6,6 +6,15 @@ This repository contains supplementary educational examples for Indicatif - a po
 
 The goal is to provide additional learning resources and practical demonstrations beyond the core examples in the main repository.
 
+Some of added examples screencasts:
+
+## `processing-yarnish.rs` example
+
+![processing-yarnish example](examples_screencasts/indicatif-example-processing-yarnish.gif)
+
+
+
+# Below original README part:
 
 # indicatif
 
