@@ -13,12 +13,16 @@ readme = "README.md"
 exclude = ["screenshots/*"]
 
 [dependencies]
+actix-web = "4.5.1"
 console = { version = "0.15", default-features = false, features = ["ansi-parsing"] }
 futures-core = { version = "0.3", default-features = false, optional = true }
 number_prefix = "0.4"
 portable-atomic = "1.0.0"
 rayon = { version = "1.1", optional = true }
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = { version = "1.0.133", features = ["arbitrary_precision", "float_roundtrip", "preserve_order"] }
 tokio = { version = "1", optional = true, features = ["io-util"] }
+tokio-stream = { version = "0.1.16", features = ["tokio-util"] }
 unicode-segmentation = { version = "1", optional = true }
 unicode-width = { version = "0.2", optional = true }
 vt100 = { version = "0.15.1", optional = true }
