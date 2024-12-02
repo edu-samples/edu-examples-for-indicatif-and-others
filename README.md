@@ -13,6 +13,23 @@ Some of added examples screencasts:
 ![processing-yarnish example](examples_screencasts/indicatif-example-processing-yarnish.gif)
 
 
+## `actix_web_and_indicatif_v03.rs` example
+
+```
+bash examples/actix_web_and_indicatif_v03_demo.sh
+```
+
+will lanuch tmux with `actix_web` example server
+and multiple curl loops making requests to it.
+
+So it is demo of `actix_web` integration,
+but ofc workload of server is simulated.
+
+Server is returning JSONL (jsonlines.org)
+streaming updates of status as progress bars are updated:
+
+![processing-yarnish example](examples_screencasts/indicatif-example-actix_web.gif)
+
 
 # Below original README part:
 
