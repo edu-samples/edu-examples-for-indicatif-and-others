@@ -19,6 +19,12 @@ Some of added examples screencasts:
 bash examples/actix_web_and_indicatif_v03_demo.sh
 ```
 
+or handy with cloning repo into temp dir:
+
+```
+cd `mktemp -d --suffix=.indicatif-actix-tmux-demo` && git clone https://github.com/edu-samples/edu-examples-for-indicatif-and-others.git && cd edu-examples-for-indicatif-and-others/examples && ./actix_web_and_indicatif_v03_demo.sh
+```
+
 will lanuch tmux with `actix_web` example server
 and multiple curl loops making requests to it.
 
